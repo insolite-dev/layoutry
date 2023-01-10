@@ -25,11 +25,11 @@ typedef LayoutryBuilder = Widget Function(
 /// ```dart
 ///  Layoutry(builder: (context, info) {
 ///    if(info.device.isMobile()) {
-///      return Text('Hi Mobile')
+///      return const Text('Hi Mobile');
 ///    }
 ///
 ///    if(info.device.isWeb()) {
-///      return Text('Hi Web');
+///      return const Text('Hi Web');
 ///    }
 ///
 ///    return Text('Hi ${info.device.toString()}');
