@@ -1,7 +1,7 @@
 name: layoutry
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: A simple layout information builder for your Flutter project.
+version: 1.0.0
+homepage: https://github.com/insolite-dev/layoutry
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
